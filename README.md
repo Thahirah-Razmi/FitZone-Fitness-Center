@@ -56,9 +56,9 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 2. **About Us Page**
 
-![image](https://github.com/user-attachments/assets/74bbc51d-84c8-443a-a41a-e88ca99a78ee)
 ![image](https://github.com/user-attachments/assets/7e1e68a4-9b5a-4844-8202-e9413ab495eb)
 ![image](https://github.com/user-attachments/assets/e2910c4f-2df5-47df-a6d0-5d1d6ddb6e89)
+![image](https://github.com/user-attachments/assets/74bbc51d-84c8-443a-a41a-e88ca99a78ee)
 
 3. **Classes Page**  
 
