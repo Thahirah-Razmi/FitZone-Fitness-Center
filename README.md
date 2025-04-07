@@ -141,13 +141,13 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 ![image](https://github.com/user-attachments/assets/f7712388-d45b-4e6b-b88a-56403bef5fdf)
 
-16. ****
+16. **User Management Page**
 
 
 
 
  **Customer Dashboard**  
-![Customer Dashboard]
+
 
 
 
