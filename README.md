@@ -78,8 +78,8 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 ![image](https://github.com/user-attachments/assets/79fb3a81-58e0-4ad6-8f7f-fb8f4c4e1bdc)
 ![image](https://github.com/user-attachments/assets/3e662524-a426-4efc-a56b-2b662a7535a5)
 ![image](https://github.com/user-attachments/assets/c43d67df-2571-4380-8ec7-3446ce755477)
-![image](https://github.com/user-attachments/assets/a78a92a5-583e-4f9d-8689-be2a589c8048)
 ![image](https://github.com/user-attachments/assets/9945e0f1-a24b-4ec3-a57b-168fd68dab1b)
+![image](https://github.com/user-attachments/assets/a78a92a5-583e-4f9d-8689-be2a589c8048)
 ![image](https://github.com/user-attachments/assets/f1676b99-8859-4269-8be3-a1e6ddf3daa4)
 ![image](https://github.com/user-attachments/assets/c6391893-2bd4-466f-a4c4-3fe922c9275f)
 
