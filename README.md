@@ -143,6 +143,31 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 16. **User Management Page**
 
+![image](https://github.com/user-attachments/assets/c565799c-a4b3-40b1-b086-0953848d3522)
+![image](https://github.com/user-attachments/assets/fbe81e8f-3ca3-46c7-ad15-90d578f25c62)
+![image](https://github.com/user-attachments/assets/27c24f61-83d8-4236-b650-24ddc36dea46)
+
+17. **Class Management Page**
+
+![image](https://github.com/user-attachments/assets/ac4d9395-6453-4a75-b3c4-7d67545002e7)
+![image](https://github.com/user-attachments/assets/58ae842e-447b-4c24-b53e-acc60eca9907)
+
+18. **Trainer Management Page**
+
+![image](https://github.com/user-attachments/assets/a27cd75b-941a-4e22-b37b-bfc947da4f1a)
+![image](https://github.com/user-attachments/assets/1a37b280-4435-4744-9ce6-7b359e0cf75d)
+
+19. **Membership Management Page**
+
+![image](https://github.com/user-attachments/assets/b8b44e65-3dba-4786-b485-4e4af566e4b8)
+![image](https://github.com/user-attachments/assets/d785aeb2-964e-497f-be31-4df4fad66549)
+![image](https://github.com/user-attachments/assets/a5ddafc2-92ca-4e6a-95b9-35cd25192b73)
+
+20. **Appointments Page**
+
+![Uploading image.png…]()
+
+21. **Queries Page**
 
 
 
