@@ -106,13 +106,50 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 9. **Blog Post 2 Page (Healthy Recipes Page)**
 
+![image](https://github.com/user-attachments/assets/cafb1312-db9c-447a-970b-4cce62b91fc7)
+![image](https://github.com/user-attachments/assets/7e3da5ab-a5a3-4a1c-8265-f208e92a4557)
+![image](https://github.com/user-attachments/assets/775a5f11-a5d7-416e-817e-aba5be702bbd)
+![image](https://github.com/user-attachments/assets/94773d74-4672-4099-94ca-2c7268b6725b)
+
+10. **Blog Post 3 Page (Healthy Meal Plans Page)**
+
+![image](https://github.com/user-attachments/assets/f4eba2a5-3b7a-43e2-b1a5-3b112cab66ee)
+![image](https://github.com/user-attachments/assets/601922cf-3861-4b17-899c-f977cb5b4a12)
+
+11. **Blog Post 4 Page (Success Stories Page)**
+
+![image](https://github.com/user-attachments/assets/dd192a08-6837-4630-96b4-4d7a8bb9194e)
+![image](https://github.com/user-attachments/assets/bc45c9bb-2037-4bcf-a14c-4bbcbe8f33e4)
+![image](https://github.com/user-attachments/assets/6eef98c7-b919-48a2-a2f7-59b07707b988)
+![image](https://github.com/user-attachments/assets/ad230293-fa95-4c89-b213-9f44a2dc2ad1)
+
+12. **Contact Us Page**
+
+![image](https://github.com/user-attachments/assets/39a6d63f-69ba-4c19-b600-2915a7320369)
+![image](https://github.com/user-attachments/assets/ed248465-7119-4d1f-80ce-23dcb1f0538b)
+
+13. **Sign Up Page**
+
+![image](https://github.com/user-attachments/assets/d530800f-372c-4e0f-a1b4-efae86db3c1c)
+![image](https://github.com/user-attachments/assets/70ce49eb-b6ae-4542-a84c-ba415c05b4af)
+
+14. **Login Page**
+
+![image](https://github.com/user-attachments/assets/dbd38eee-f2e6-4067-83fb-eb42e8765ae8)
+
+15. **Admin Dashboard Page**
+
+![image](https://github.com/user-attachments/assets/f7712388-d45b-4e6b-b88a-56403bef5fdf)
+
+16. ****
+
+
 
 
  **Customer Dashboard**  
 ![Customer Dashboard]
 
- **Admin/Staff Panel**  
-![Admin Panel]
+
 
 ---
 
