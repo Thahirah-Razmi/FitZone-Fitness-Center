@@ -165,16 +165,46 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 20. **Appointments Page**
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/df25fd2d-1a9e-41d0-8130-5a0b1f7bf533)
 
 21. **Queries Page**
 
+![image](https://github.com/user-attachments/assets/fc97c0cb-531c-452c-ac96-7b3dbc1a861d)
 
+22. **Staff Dashboard Page**
 
- **Customer Dashboard**  
+![image](https://github.com/user-attachments/assets/afea27f6-5aa1-476f-93cc-6fd845abcfba)
 
+23. **View Appointments Page**
 
+![image](https://github.com/user-attachments/assets/d67832fb-ddb1-450e-8d9d-3779a7639055)
 
+24. **View Trainers Page**
+
+![image](https://github.com/user-attachments/assets/3fa1c65d-f6a6-4133-95b7-dc41da359d94)
+![image](https://github.com/user-attachments/assets/c8f92733-9a1c-4c52-a8e4-c6fbea6949d9)
+
+25. **View Memberships Page**
+
+![image](https://github.com/user-attachments/assets/726f4d4e-026d-46a0-9303-7e33c76147b8)
+![image](https://github.com/user-attachments/assets/1daa1c41-c4a8-4cca-aa0c-d4d55fbab8b1)
+![image](https://github.com/user-attachments/assets/b5e6804e-090c-4534-9434-bae3938cba84)
+
+26. **Customer Dashboard Page**  
+
+![image](https://github.com/user-attachments/assets/a97b4c55-b578-4eab-a924-077d648275f8)
+
+27. **My Profile Page**
+
+![image](https://github.com/user-attachments/assets/e04c5dd7-d8f5-4a31-93b4-7614bfd5b3c2)
+
+28. **My Appointments Page**
+
+![image](https://github.com/user-attachments/assets/1946f558-2a38-4c3e-aed8-37c3bb751ccd)
+
+29. **Customer Queries Page**
+
+![Uploading image.png…]()
 
 ---
 
