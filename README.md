@@ -191,6 +191,7 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 26. **Customer Dashboard Page**  
 
+![image](https://github.com/user-attachments/assets/6fe1a712-bdd2-4de5-b659-a43779d9e9bb)
 
 27. **My Profile Page**
 
