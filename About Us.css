@@ -1,0 +1,169 @@
+.welcome {
+    background: url('About\ Us\ Gym.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.welcome-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.welcome h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.welcome p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.welcome::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+    margin: 40px 0; /* Add spacing at the top and bottom */
+    flex-wrap: wrap;
+}
+
+.mission, .vision {
+    width: 48%; /* Ensures both sections take up equal space */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.why-choose-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Stretch both containers to match height */
+    margin: 40px 0;
+    gap: 20px;
+}
+
+.slideshow-container {
+    width: 50%; /* Left side for the slideshow */
+    position: relative;
+    display: flex;
+    align-items: stretch; /* Ensure the container matches the height of the right section */
+    height: 400px; /* Set a fixed height for consistency */
+}
+
+.why-choose-us {
+    width: 45%; /* Right side for the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    height: 400px; /* Match the height of the slideshow container */
+}
+
+.slide {
+    display: none; /* Hide all slides initially */
+    height: 100%; /* Ensure slides take full height of container */
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    border-radius: 5px;
+}
+
+/* Slideshow functionality */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+/* Slideshow active slide */
+.active {
+    display: block;
+}
+
+/* Optional: Style the content section */
+.why-choose-us ul {
+    list-style-type: disc;
+    text-align: justify;
+    margin-right: 30px;
+    padding-left: 0;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 10px;
+}
+
+.join-community-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px; /* Space between the image and the text */
+    margin-bottom: 40px; /* Space at the bottom of the section */
+}
+
+.community-image {
+    width: 40%; /* Image takes 40% of the section */
+}
+
+.community-content {
+    width: 55%; /* Content takes 55% of the section */
+}
+
+.join-community-section img {
+    border-radius: 5px; /* Optional: add a border radius to the image */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.mission p,
+.vision p,
+.community-content p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.welcome-content h2,
+.why-choose-us h2,
+.mission h2,
+.vision h2,
+.community-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+}

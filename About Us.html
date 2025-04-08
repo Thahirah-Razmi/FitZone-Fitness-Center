@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="About Us.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="FitZone Fitness Center Logo.png" width="100"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Classes.html">Classes</a></li>
+                <li><a href="Memberships.html">Memberships</a></li>
+                <li><a href="Personal Training.html">Personal Training</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Sign Up.html">Sign Up</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <div class="welcome-content">
+            <h2>Welcome to FitZone Fitness Center!</h2>
+            <p>In today's fast-paced world, where the demands of work, family, and social obligations often take
+                precedence, maintaining a balanced lifestyle centered around fitness and well-being is essential. At
+                FitZone Fitness Center, we understand that fitness encompasses not only physical health but also mental
+                and emotional wellness, forming the foundation for a fulfilling and sustainable life.</p>
+        </div>
+    </section>
+
+    <section class="mission-vision">
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>At FitZone Fitness Center, our mission is to empower individuals of all fitness levels to achieve their
+                health and wellness goals. We believe that fitness is for everyone, and we are dedicated to providing an
+                inclusive, supportive, and motivating environment.</p>
+        </div>
+
+        <div class="vision">
+            <h2>Our Vision</h2>
+            <p>At FitZone, our vision is to create a welcoming and inclusive space that empowers individuals to take
+                charge of their health and well-being. We believe that fitness is not just about working out; it’s a
+                holistic approach to life that nurtures the body, mind, and spirit.</p>
+        </div>
+    </section>
+
+    <section class="why-choose-us-section">
+        <div class="slideshow-container">
+            <!-- Slideshow -->
+            <div class="slide fade">
+                <img src="image1.jpg" alt="Gym Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="image2.jpg" alt="Gym Image 2">
+            </div>
+            <div class="slide fade">
+                <img src="image3.jpg" alt="Gym Image 3">
+            </div>
+            <div class="slide fade">
+                <img src="image4.jpg" alt="Gym Image 4">
+            </div>
+            <div class="slide fade">
+                <img src="image5.jpg" alt="Gym Image 5">
+            </div>
+            <div class="slide fade">
+                <img src="image6.jpg" alt="Gym Image 6">
+            </div>
+            <div class="slide fade">
+                <img src="image7.jpg" alt="Gym Image 7">
+            </div>
+        </div>
+
+        <div class="why-choose-us">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Comprehensive Fitness Programs: We offer a wide range of fitness programs tailored to suit all
+                    levels of
+                    experience, from beginners to advanced fitness enthusiasts. Our programs include cardio, strength
+                    training, yoga, and more, ensuring that everyone finds something that fits their goals.</li>
+                <li>State-of-the-Art Equipment: Our facility is equipped with the latest fitness technology and
+                    equipment,
+                    providing you with the tools you need to succeed.</li>
+                <li>Personalized Training Sessions: Our certified trainers are dedicated to helping you achieve your
+                    fitness
+                    goals through customized training sessions designed just for you. With expertise in various
+                    specialties,
+                    they will motivate and guide you every step of the way.</li>
+                <li>Group Classes: Join our vibrant community through engaging group classes that encourage camaraderie
+                    and
+                    support, helping you stay motivated and committed to your fitness journey.</li>
+                <li>Nutrition Counseling: At FitZone, we understand that fitness extends beyond the gym. Our nutrition
+                    counseling services provide expert guidance on healthy eating, meal planning, and recipes to
+                    complement
+                    your fitness regime.</li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("slide");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000); // Change slide every 3 seconds
+        }
+        </script>
+
+    <section class="join-community-section">
+        <div class="community-content">
+            <h2>Join Our Community</h2>
+            <p>We invite you to become part of the FitZone family. Our gym is more than just a place to work out; it’s a
+                supportive community where individuals come together to inspire and motivate one another. Together, we
+                can achieve our fitness goals and improve our overall well-being.
+
+                Ready to embark on your fitness journey? Explore our website to learn more about our classes, personal
+                training options, and membership plans. Join us today and take the first step towards a healthier,
+                happier you!</p>
+        </div>
+        <div class="community-image">
+            <img src="Community.jpg" alt="Community Image" style="width:100%">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="Classes.html">Classes</a>
+                <a href="Memberships.html">Memberships</a>
+                <a href="Personal Training.html">Personal Training</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <p>FitZone Fitness Center | Kurunegala | Contact : +94(0)760139886 | Email : fitzonefitnesscenter@gmail.com</p>
+            <p>&copy; 2024 FitZone Fitness Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
