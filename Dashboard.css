@@ -1,0 +1,121 @@
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Role Options Section */
+.role-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Role Cards */
+.role-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.role-card h2 {
+    color: #2c3e50;
+}
+
+.role-card p {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.role-card a.btn {
+    background-color: #8E44AD;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.role-card a.btn:hover {
+    background-color: #8E44AD;
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8E44AD;
+    color: white;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #8E44AD;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #8E44AD;
+}
+
+.btn.delete {
+    background-color: #f44336;
+}
+
+.btn.delete:hover {
+    background-color: #e53935;
+}
+
+.btnadd {
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #8E44AD;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btnadd:hover {
+    background-color: #8E44AD;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}

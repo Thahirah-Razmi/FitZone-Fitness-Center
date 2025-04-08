@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Classes.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="FitZone Fitness Center Logo.png" width="100"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Classes.html">Classes</a></li>
+                <li><a href="Memberships.html">Memberships</a></li>
+                <li><a href="Personal Training.html">Personal Training</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Sign Up.html">Sign Up</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Hero Section -->
+    <section class="hero-classes">
+        <div class="hero-content">
+            <h2>Explore Our Fitness Classes</h2>
+            <p>Join a class that fits your schedule and fitness goals. From yoga to cardio, we have it all!</p>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section class="classes">
+        <h2>Our Classes</h2>
+        <div class="class-list">
+            <div class="class-item">
+                <img src="Cardio.jpg" alt="Cardio Class">
+                <h3>Cardio</h3>
+                <p>Burn calories and boost your endurance with high-energy cardio classes.</p>
+                <p><strong>Duration:</strong> 45 minutes | <strong>Level:</strong> All Levels</p>
+                <a href="Sign Up.html" class="btn">Join Cardio</a>
+            </div>
+
+            <div class="class-item">
+                <img src="Strength Training.JPG" alt="Strength Training Class">
+                <h3>Strength Training</h3>
+                <p>Build muscle and increase your strength with our resistance training classes.</p>
+                <p><strong>Duration:</strong> 60 minutes | <strong>Level:</strong> Intermediate</p>
+                <a href="Sign Up.html" class="btn">Join Strength Training</a>
+            </div>
+
+            <div class="class-item">
+                <img src="Yoga.jpeg" alt="Yoga Class">
+                <h3>Yoga</h3>
+                <p>Improve your flexibility and find inner peace with our yoga sessions. Suitable for all levels.</p>
+                <p><strong>Duration:</strong> 60 minutes | <strong>Level:</strong> All Levels</p>
+                <a href="Sign Up.html" class="btn">Join Yoga</a>
+            </div>
+
+            <div class="class-item">
+                <img src="Pilates.jpg" alt="Pilates Class">
+                <h3>Pilates</h3>
+                <p>Strengthen your core and improve your posture with our Pilates classes.</p>
+                <p><strong>Duration:</strong> 45 minutes | <strong>Level:</strong> All Levels</p>
+                <a href="Sign Up.html" class="btn">Join Pilates</a>
+            </div>
+
+            <div class="class-item">
+                <img src="Zumba.jpg" alt="Zumba Class">
+                <h3>Zumba</h3>
+                <p>Dance your way to fitness with our fun and energetic Zumba classes.</p>
+                <p><strong>Duration:</strong> 60 minutes | <strong>Level:</strong> All Levels</p>
+                <a href="Sign Up.html" class="btn">Join Zumba</a>
+            </div>
+
+            <div class="class-item">
+                <img src="HIIT.jpg" alt="HIIT Class">
+                <h3>HIIT</h3>
+                <p>High-Intensity Interval Training to maximize your calorie burn in minimal time.</p>
+                <p><strong>Duration:</strong> 30 minutes | <strong>Level:</strong> Advanced</p>
+                <a href="Sign Up.html" class="btn">Join HIIT</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="schedules">
+        <h2>Take a class</h2>
+        <form action="Classes.php" method="POST">
+            <label for="class_type">Choose a class type:</label>
+            <select name="class_type" id="class_type">
+                <option value="Cardio">Cardio</option>
+                <option value="Strength Training">Strength Training</option>
+                <option value="Yoga">Yoga</option>
+                <option value="Pilates">Pilates</option>
+                <option value="Zumba">Zumba</option>
+                <option value="HIIT">HIIT</option>
+            </select>
+            <button type="submit">Check Schedule</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="Classes.html">Classes</a>
+                <a href="Memberships.html">Memberships</a>
+                <a href="Personal Training.html">Personal Training</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <p>FitZone Fitness Center | Kurunegala | Contact : +94(0)760139886 | Email : fitzonefitnesscenter@gmail.com</p>
+            <p>&copy; 2024 FitZone Fitness Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
