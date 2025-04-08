@@ -173,7 +173,6 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 22. **Staff Dashboard Page**
 
 ![image](https://github.com/user-attachments/assets/fc97c0cb-531c-452c-ac96-7b3dbc1a861d)
-![image](https://github.com/user-attachments/assets/afea27f6-5aa1-476f-93cc-6fd845abcfba)
 
 23. **View Appointments Page**
 
