@@ -155,10 +155,10 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 
 ![image](https://github.com/user-attachments/assets/58ae842e-447b-4c24-b53e-acc60eca9907)
 ![image](https://github.com/user-attachments/assets/a27cd75b-941a-4e22-b37b-bfc947da4f1a)
-![image](https://github.com/user-attachments/assets/1a37b280-4435-4744-9ce6-7b359e0cf75d)
 
 19. **Membership Management Page**
 
+![image](https://github.com/user-attachments/assets/1a37b280-4435-4744-9ce6-7b359e0cf75d)
 ![image](https://github.com/user-attachments/assets/b8b44e65-3dba-4786-b485-4e4af566e4b8)
 ![image](https://github.com/user-attachments/assets/d785aeb2-964e-497f-be31-4df4fad66549)
 ![image](https://github.com/user-attachments/assets/a5ddafc2-92ca-4e6a-95b9-35cd25192b73)
