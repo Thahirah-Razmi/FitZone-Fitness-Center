@@ -165,14 +165,14 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 20. **Appointments Page**
 
 ![image](https://github.com/user-attachments/assets/a5ddafc2-92ca-4e6a-95b9-35cd25192b73)
-![image](https://github.com/user-attachments/assets/df25fd2d-1a9e-41d0-8130-5a0b1f7bf533)
 
 21. **Queries Page**
 
-![image](https://github.com/user-attachments/assets/fc97c0cb-531c-452c-ac96-7b3dbc1a861d)
+![image](https://github.com/user-attachments/assets/df25fd2d-1a9e-41d0-8130-5a0b1f7bf533)
 
 22. **Staff Dashboard Page**
 
+![image](https://github.com/user-attachments/assets/fc97c0cb-531c-452c-ac96-7b3dbc1a861d)
 ![image](https://github.com/user-attachments/assets/afea27f6-5aa1-476f-93cc-6fd845abcfba)
 
 23. **View Appointments Page**
