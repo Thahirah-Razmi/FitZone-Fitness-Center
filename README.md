@@ -40,7 +40,8 @@ A full-featured web application developed for **FitZone Fitness Center**, a mode
 ## 🛠️ Technical Stack  
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: PHP
-- **Database**: MySQL 
+- **Database**: MySQL
+- **Tools**: Visual Studio Code, WAMP Server, phpMyAdmin
 - **Authentication**: Role-based login system  
 
 ---
