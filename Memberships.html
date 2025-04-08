@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Memberships.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="FitZone Fitness Center Logo.png" width="100"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Classes.html">Classes</a></li>
+                <li><a href="Memberships.html">Memberships</a></li>
+                <li><a href="Personal Training.html">Personal Training</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Sign Up.html">Sign Up</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Hero Section -->
+    <section class="hero-membership">
+        <div class="hero-content">
+            <h2>Explore Our Membership Plans</h2>
+            <p>Join FitZone Fitness Center and choose from our tailored membership plans to suit your fitness goals.
+                Whether you're just starting or a seasoned athlete, we have something for everyone!</p>
+        </div>
+    </section>
+
+    <!-- Membership Plans Section -->
+    <section class="membership">
+        <h2>Membership Plans for Every Need</h2>
+        <div class="membership-plans">
+            <div class="membership-plan">
+                <h3>Basic Membership</h3>
+                <p>Rs. 15,000 / month</p>
+                <ul>
+                    <li>Access to the gym during off-peak hours.</li>
+                    <li>Access to basic gym equipment.</li>
+                    <li>Ideal for those starting their fitness journey on a budget.</li>
+                    <li>Promotion: First-time members get the first week free.</li>
+                </ul>
+                <a href="Sign Up.html" class="btn">Sign Up Now</a>
+            </div>
+            <div class="membership-plan">
+                <h3>Standard Membership</h3>
+                <p>Rs. 30,000 / month</p>
+                <ul>
+                    <li>Full access to all gym facilities.</li>
+                    <li>Group fitness classes included.</li>
+                    <li>Personal training (1 session per month).</li>
+                    <li>Access to the gym during peak and off-peak hours.</li>
+                    <li>Promotion: Get 10% off for the first three months if you sign up for a 6-month membership.</li>
+                </ul>
+                <a href="Sign Up.html" class="btn">Sign Up Now</a>
+            </div>
+            <div class="membership-plan">
+                <h3>Premium Membership</h3>
+                <p>Rs. 50,000 / month</p>
+                <ul>
+                    <li>Unlimited access to all gym and wellness amenities.</li>
+                    <li>Unlimited group classes and personal training.</li>
+                    <li>Includes nutrition counseling and wellness guidance</li>
+                    <li>Best for those seeking personalized, all-inclusive fitness experiences.</li>
+                    <li>Promotion: Sign up for a yearly plan and get two months free.</li>
+                </ul>
+                <a href="Sign Up.html" class="btn">Sign Up Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="membership">
+        <h2>Choose a Membership</h2>
+        <form action="Memberships.php" method="POST">
+            <label for="membership-plan">Choose a membership plan:</label>
+            <select name="membership-plan" id="membership-plan">
+                <option value="Basic Membership">Basic Membership</option>
+                <option value="Standard Membership">Standard Membership</option>
+                <option value="Premium Membership">Premium Membership</option>
+            </select>
+            <button type="submit">Check Membership Plans</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="Classes.html">Classes</a>
+                <a href="Memberships.html">Memberships</a>
+                <a href="Personal Training.html">Personal Training</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <p>FitZone Fitness Center | Kurunegala | Contact : +94(0)760139886 | Email : fitzonefitnesscenter@gmail.com</p>
+            <p>&copy; 2024 FitZone Fitness Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
