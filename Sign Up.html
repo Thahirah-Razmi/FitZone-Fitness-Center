@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Fitness Center</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Sign Up.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="FitZone Fitness Center Logo.png" width="100"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Classes.html">Classes</a></li>
+                <li><a href="Memberships.html">Memberships</a></li>
+                <li><a href="Personal Training.html">Personal Training</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Sign Up.html">Sign Up</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup">
+        <h2>Create Your Account</h2>
+        <form action="Sign Up.php" method="POST">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="membership">Choose Membership Plan:</label>
+            <select id="membership" name="membership">
+                <option value="Basic Membership - 1 Month">Basic Membership - 1 Month</option>
+                <option value="Basic Membership - 6 Months">Basic Membership - 6 Months</option>
+                <option value="Basic Membership - 1 Yea">Basic Membership - 1 Year</option>
+                <option value="Standard Membership - 1 Month">Standard Membership - 1 Month</option>
+                <option value="Standard Membership - 6 Months">Standard Membership - 6 Months</option>
+                <option value="Standard Membership - 1 Year">Standard Membership - 1 Year</option>
+                <option value="Premium Membership - 1 Month">Premium Membership - 1 Month</option>
+                <option value="Premium Membership - 6 Months">Premium Membership - 6 Months</option>
+                <option value="Premium Membership - 1 Year">Premium Membership - 1 Year</option>
+            </select>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <script>
+        const form = document.querySelector('form');
+        const password = document.getElementById('password');
+        const confirmPassword = document.getElementById('confirm-password');
+
+        form.addEventListener('submit', function (event) {
+            if (password.value !== confirmPassword.value) {
+                event.preventDefault();
+                alert("Passwords do not match!");
+            }
+        });
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="Classes.html">Classes</a>
+                <a href="Memberships.html">Memberships</a>
+                <a href="Personal Training.html">Personal Training</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact Us.html">Contact Us</a>
+            </div>
+            <p>FitZone Fitness Center | Kurunegala | Contact : +94(0)760139886 | Email : fitzonefitnesscenter@gmail.com</p>
+            <p>&copy; 2024 FitZone Fitness Center. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

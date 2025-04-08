@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('nutrition-counseling.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    z-index: 2;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Nutrition Counseling Section */
+.nutrition-counseling {
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nutrition-counseling h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* Counseling Details */
+.counseling-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.counseling-info {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.counseling-info:hover {
+    transform: translateY(-5px);
+}
+
+.counseling-info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.counseling-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Nutrition Benefits */
+.nutrition-benefits {
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.nutrition-benefits h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.nutrition-benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nutrition-benefits ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Sign-Up Call-to-Action */
+.signup-cta {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #8E44AD;
+    color: #fff;
+}
+
+.signup-cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.signup-cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.signup-cta .btn {
+    background-color: #fff;
+    color: #8E44AD;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-cta .btn:hover {
+    background-color: #5A2D82;
+    color: #fff;
+}
+
+/* Trainer Cards */
+.trainers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.trainer-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.trainer-card:hover {
+    transform: translateY(-5px);
+}
+
+.trainer-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
